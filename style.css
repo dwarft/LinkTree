@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(/tugasweb/aset/Blacklisted.ttf);
+}
+
+main {
+  background-color: #121111;
+  width: 100%;
+  height: 100vh;
+}
+
+.screen {
+  margin: auto;
+  background: url('/tugasweb/aset/download\ \(25\).jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile {
+  padding: 2px;
+  background-color: #fff;
+  width: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.4);
+  height: 500px;
+  width: 350px;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.title-profile {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.title-profile h4 {
+  font-family: 'poppins', sans-serif;
+  color: #fff;
+}
+
+.title-profile p {
+  font-family: 'poppins', sans-serif;
+  color: #fff;
+  font-size: 12px;
+}
+
+.links {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.link-wrap {
+  background-color: #fff;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.links .link-wrap a {
+  text-decoration: none;
+  color: #222;
+}
+
+.links .link-wrap a i {
+  margin-right: 5px;
+}
+
+@media screen and (min-width: 1280px) {
+  .screen {
+    width: 25rem;
+  }
+
+  .profile {
+    width: 5rem;
+  }
+}
