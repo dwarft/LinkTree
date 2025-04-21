@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: myFont;
-  src: url(/tugasweb/aset/Blacklisted.ttf);
+  src: url(Blacklisted.ttf);
 }
 
 main {
@@ -18,7 +18,7 @@ main {
 
 .screen {
   margin: auto;
-  background: url('/tugasweb/aset/download\ \(25\).jpg');
+  background: url('download\ \(25\).jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
