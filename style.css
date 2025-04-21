@@ -100,6 +100,22 @@ main {
   margin-right: 5px;
 }
 
+.fa-instagram {
+  color: rgb(15, 15, 15);
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-facebook {
+  color: rgb(0, 106, 255);
+}
+
+.fa-linkedin {
+  color: rgb(0, 106, 255);
+}
+
 @media screen and (min-width: 1280px) {
   .screen {
     width: 25rem;
